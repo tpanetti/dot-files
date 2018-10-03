@@ -1,0 +1,1 @@
+/home/tpanetti/.fzf/shell/key-bindings.fish

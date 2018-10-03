@@ -1,0 +1,24 @@
+[init]
+	templatedir = ~/.git-templates
+[user]
+	email = tpanetti@email.sc.edu
+	name = tpanetti
+[credential]
+	helper = cache
+[alias]
+	set-upstream = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	excludesfile = /home/tpanetti/.gitignore_global
+[diff]
+	tool = bc
+[difftool]
+	prompt = false
+	bc = trustExitCode
+	bc = trustExitCode
+[merge]
+	tool = bc
+[mergetool]
+	bc = trustExitCode
+	bc = trustExitCode

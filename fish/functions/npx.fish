@@ -1,0 +1,1 @@
+/home/tpanetti/.config/fisherman/nvm/functions/npx.fish

@@ -1,0 +1,1 @@
+/home/tpanetti/.config/fisherman/bass/functions/bass.fish
